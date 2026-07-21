@@ -13,23 +13,33 @@ You only do this once. It takes about ten minutes.
 1. Install the Claude Code desktop app from [claude.com/claude-code](https://claude.com/claude-code). Download it, open the installer, and follow the prompts like any other app.
 2. Open the app and sign in with your work email, using the account Peter set up for you. You will never be asked for payment details during this setup. If you are unsure which account to use, or you do not have one yet, ask Peter first.
 3. Enable the Claude in Chrome extension. You need Google Chrome for this kit, so if you normally use a different browser, use Chrome for this work. When you first open the app, a message will appear offering to set up the extension for you. Accept it. This is what lets Claude see the pages you have open in Chrome, such as the WordPress editor. If you do not see that message, or you dismissed it by mistake, nothing is broken. Just ask Peter to help you turn it on.
-4. In the Claude Code app, click into the message box. The next two steps are just how you tell Claude to fetch our toolkit. You do not need to understand them, only to copy them exactly (use the copy button at the right edge of each box). Type exactly this, then press Enter:
+4. Now you will fetch our toolkit. This part happens in a different window called the terminal. It looks technical but it is just two copy-paste lines, and you cannot break anything here.
+
+   Open the terminal:
+   - On Windows: press the Windows key, type `powershell`, and press Enter.
+   - On Mac: press Command and the space bar together, type `terminal`, and press Enter.
+
+   A plain window with a blinking cursor appears. Paste this line into it (use the copy button at the right edge of the box) and press Enter:
 
    ```
-   /plugin marketplace add pmezzich/marketing-kit
+   claude plugin marketplace add pmezzich/marketing-kit
    ```
 
-   After you press Enter you should see a short confirmation message. If you see anything that looks like an error, stop and send Peter a screenshot. You have not broken anything.
+   Wait a few seconds. You should see a line ending in "Successfully added marketplace: prebid-tools".
 
-5. Then type exactly this and press Enter:
+5. In the same window, paste this line and press Enter:
 
    ```
-   /plugin install prebid-marketing@prebid-tools
+   claude plugin install prebid-marketing@prebid-tools
    ```
 
-   Again, you should see a short confirmation message. If you see anything that looks like an error, stop and send Peter a screenshot.
+   You should see "Successfully installed plugin: prebid-marketing". Now close the terminal window. You will not need it again.
 
-That is it. The helpers are now installed and will load automatically when they are relevant. From now on, just type what you want into that same message box, in plain English. Any time you want a reminder of what you can ask for, type /marketing-help and press Enter, and a menu will appear.
+   If either line shows something that looks like an error, or says the claude command is not recognized, stop and send Peter a screenshot. You have not broken anything.
+
+6. Open the Claude Code app and start a new conversation. The helpers load when a conversation starts, so an already-open conversation will not have them.
+
+That is it. From now on, just type what you want into the app's message box, in plain English. Any time you want a reminder of what you can ask for, type /marketing-help and press Enter, and a menu will appear.
 
 ## Before you ask for changes
 
