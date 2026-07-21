@@ -37,9 +37,9 @@ You only do this once. It takes about ten minutes.
 
    If either line shows something that looks like an error, or says the claude command is not recognized, stop and send Peter a screenshot. You have not broken anything.
 
-6. Open the Claude Code app and start a new conversation. The helpers load when a conversation starts, so an already-open conversation will not have them.
+6. Now leave the terminal behind. Everything from here on happens in the Claude Code app, in the normal message box where you chat. Open the app and start a new conversation. The helpers load when a conversation starts, so an already-open conversation will not have them.
 
-That is it. From now on, just type what you want into the app's message box, in plain English. Any time you want a reminder of what you can ask for, type /marketing-help and press Enter, and a menu will appear.
+That is it. From now on, just type what you want into the app's message box, in plain English. Any time you want a reminder of what you can ask for, type /marketing-help into the app's message box (not the terminal, that window is done) and press Enter, and a menu will appear.
 
 ## Before you ask for changes
 
