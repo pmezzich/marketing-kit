@@ -1,0 +1,8 @@
+{
+  "name": "prebid-marketing",
+  "description": "Marketing helpers for Prebid.org. WordPress and HubSpot workflows for the marketing team, with draft-first safety rules baked in.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Prebid.org"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "prebid-tools",
+  "owner": {
+    "name": "Prebid.org"
+  },
+  "plugins": [
+    {
+      "name": "prebid-marketing",
+      "source": "./",
+      "description": "Marketing helpers for Prebid.org. WordPress and HubSpot workflows for the marketing team, with draft-first safety rules baked in."
+    }
+  ]
+}
