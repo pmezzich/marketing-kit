@@ -9,5 +9,6 @@
       "source": "./",
       "description": "Marketing helpers for Prebid.org. WordPress and HubSpot workflows for the marketing team, with draft-first safety rules baked in."
     }
-  ]
+  ],
+  "description": "Claude Code toolkit for the Prebid.org marketing team: safe WordPress editing and HubSpot checks, drafts only, a human always makes the final click."
 }
